@@ -1,0 +1,20 @@
+.chipsControls {
+	display: flex;
+	column-gap: 5px;
+}
+
+.chipsControl {
+	padding: 8px 16px;
+	border-radius: 10px;
+	background-color: #e5daf6;
+	border: none;
+	cursor: pointer;
+
+	&:hover {
+		opacity: 0.8;
+	}
+
+	&:active {
+		opacity: 0.6;
+	}
+}
