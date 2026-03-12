@@ -11,10 +11,10 @@ export const ChipsList = ({ chipses }: IChipsListProps) => {
 	return (
 		<div className={styles.chipsList}>
 			{chipses.length > 0 ? (
-				chipses.map(chip => (
+				chipses.map(chips => (
 					<Chips
-						key={chip.id}
-						{...chip}
+						key={chips.id}
+						{...chips}
 					/>
 				))
 			) : (
